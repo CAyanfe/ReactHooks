@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Light Mode */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.card {
+  background-color: #f8f9fa;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.card.dark-mode {
+  background-color: #212529;
+}
+/* styles.css */
+
+/* Light Mode */
+
+/* Dark Mode */
+.dark-mode body {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #212529;
+}
